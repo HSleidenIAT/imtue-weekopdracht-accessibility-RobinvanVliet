@@ -1,5 +1,4 @@
 /* || General setup */
-
 html, body {
   margin: 0;
   padding: 0;
@@ -17,8 +16,7 @@ body {
 }
 
 /* || typography */
-
-font[size="7"], font[size="6"], font[size="5"] {
+h1, h2, h3 {
   font-family: 'Sonsie One', cursive;
   color: #2a2a2a;
 }
@@ -28,19 +26,20 @@ p, input, li, table, label {
   color: #2a2a2a;
 }
 
-font[size="7"] {
+h1 {
   font-size: 4rem;
   text-align: center;
   color: white;
+  font-size: 40px;
   text-shadow: 2px 2px 10px black;
 }
 
-font[size="6"] {
-  font-size: 3rem;
+h2 {
+  font-size: 34px;
   text-align: center;
 }
 
-font[size="5"] {
+h3 {
   font-size: 2.2rem;
 }
 
@@ -50,9 +49,8 @@ p, li, table {
 }
 
 /* || header layout */
-
-div[class="nav"], article, footer, .secondary {
-  background-color: green;
+nav, article, footer, .secondary {
+  background-color: white;
 }
 
 article, footer, .secondary {
@@ -63,12 +61,17 @@ article {
   margin-right: 10px;
 }
 
-div[class="nav"] {
+nav {
   height: 50px;
   background-color: ff80ff;
   display: flex;
   padding: 1% 0;
   margin-bottom: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2em;
 }
 
 div[class="nav"] ul {
@@ -118,7 +121,6 @@ div[class="nav"] .search {
 }
 
 /* || main layout */
-
 main {
   display: flex;
 }
@@ -136,7 +138,6 @@ footer {
 }
 
 /* Table styling */
-
 table {
   width: 100%;
   background-color: #dde;
@@ -160,7 +161,6 @@ tbody tr:nth-child(odd) {
 }
 
 /* styling content images and audio */
-
 img, audio {
   display: block;
   margin: 0 auto;
@@ -171,7 +171,6 @@ audio {
 }
 
 /* Comments styling */
-
 .comments {
   background-color: #def;
   padding: 10px;
