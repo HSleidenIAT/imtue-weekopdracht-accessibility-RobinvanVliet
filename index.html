@@ -19,14 +19,14 @@
     <h1>Welcome to our wildlife website</h1>
   </div>
 
-  <nav>
+  <nav><!-- REVIEW: je kan nog aangeven dat dit de main navigatie is -->
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Our team</a></li>
       <li><a href="#">Projects</a></li>
       <li><a href="#">Blog</a></li>
     </ul>
-
+<!-- REVIEW: form tag wordt niet geopend -->
     <label for="Search">Search:</label>
     <input type="text" name="Search" id="Search" placeholder="Search">
     <button class="search" type="button" name="button">Go!</button>
@@ -44,10 +44,10 @@
       <p> Bears come in two varieties — large and medium. You don't get small bears. If you have seen a small bear, then it was in fact probably a baby bear (cub) from another species.</p>
       <p> Bears can also be classified in terms of their habitat — both large and medium bears are just as at home in urban areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find out below. The
         below table also gives you some useful facts about bears.</p>
-      <table>
+      <table><!-- REVIEW: voeg nog een summary of caption toe -->
         <thead>
           <tr>
-            <td>Bear Type</td>
+            <td>Bear Type</td><!-- REVIEW: dit zin celhoofden, geef ook aan of dit voor de rij of kolom is -->
             <td>Coat</td>
             <td>Adult size</td>
             <td>Habitat</td>
@@ -95,7 +95,7 @@
       </aside>
 
       <section class="comments">
-        <div class="show-hide">Show comments</div>
+        <div class="show-hide">Show comments</div><!-- REVIEW: niet keyboard accessible -->
         <div class="comment-wrapper">
 
           <h2>Add comment</h2>
@@ -136,7 +136,7 @@
       </section>
     </article>
 
-    <div class="secondary">
+    <div class="secondary"><!-- REVIEW: dit is een aside of secundary navigation -->
       <h2>Related</h2>
 
       <ul>
